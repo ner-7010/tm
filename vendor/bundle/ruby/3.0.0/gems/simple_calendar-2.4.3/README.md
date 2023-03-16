@@ -87,7 +87,7 @@ You can generate calendars of any length by passing in the number of days you wa
 <% end %>
 ```
 
-Setting `number_of_days` is optional and defaults to 4.
+Setting `number_of_days` is optional and defaults to 1.
 
 ### Custom Parameter Name
 

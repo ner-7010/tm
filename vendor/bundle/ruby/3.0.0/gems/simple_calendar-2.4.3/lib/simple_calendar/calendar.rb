@@ -40,7 +40,7 @@ module SimpleCalendar
       td_class << "today" if today == day
       td_class << "past" if today > day
       td_class << "future" if today < day
-      td_class <<  "holiday" if HolidayJapan.check(day)
+      td_class << "holiday" if HolidayJapan.check(day)
       td_class << "start-date" if day.to_date == start_date.to_date
       td_class << "prev-month" if start_date.month != day.month && day < start_date
       td_class << "next-month" if start_date.month != day.month && day > start_date
