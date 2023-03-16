@@ -1,0 +1,74 @@
+<%= button_to 'ログアウト', destroy_user_session_path, method: :delete %>
+	<p id="notice"><%= notice %></p>
+
+	<%= calendar events: @posts do |date, posts| %>
+		<%= date.day %>
+		<% if HolidayJapan.check(date) %>
+		<%= HolidayJapan.name(date) %>
+		<% end %>
+		<ul class="post-list", style="list-style: none;">
+			<% posts.each do |post| %>
+				<li class="list">
+					<%= link_to post_path(post.id) do %>
+						<%= post.time %> ～ <%= (post.start_time + post.time_required*60*60).strftime("%H:%M") %>
+                        <%= post.title %>
+					<% end %>
+				</li>
+			<% end %>
+		</ul>
+	<% end %>
+
+	<div id="bar-graph" class="content">
+		<h2 class="c-title">貯金時間</h2>
+		<div class="bar-graph-wrap">
+			<div class="graph blue">
+				<span class="name">aaa</span>
+				<span class="number">88%</span>
+			</div>
+		</div>
+	</div>
+
+	<h2>今日の予定</h2>
+
+	<table>
+		<thead>
+			<tr>
+				<th>タイトル</th>
+				<th>日程</th>
+				<th colspan="3"></th>
+			</tr>
+		</thead>
+		<tbody>
+			<% @posts.each do |post| %>
+				<tr>
+					<% if post.day == Date.today %>
+					<td><%= post.title %></td>
+					<td><%= post.time %></td>
+					<td><%= link_to '詳細', post %></td>
+					<td><%= link_to '編集', edit_post_path(post.id) %></td>
+					<td><%= link_to '削除', post_path(post.id), method: :delete, data: {confirm: '本当に？'} %></td>
+					<% end %>
+				</tr>
+			<% end %>
+		</tbody>
+	</table>
+
+	<%= month_calendar events: @posts do |date, posts| %>
+		<%= link_to "/posts?start_date=#{date}" do %>
+		<%= date.day %>
+		<% end %>
+		<% if HolidayJapan.check(date) %>
+		<%= HolidayJapan.name(date) %>
+		<% end %>
+		<ul class="post-list", style="list-style: none;">
+			<% posts.each do |post| %>
+				<li class="list">
+					<%= link_to post_path(post.id) do %>
+						<%= post.title %>
+					<% end %>
+				</li>
+			<% end %>
+		</ul>
+	<% end %>
+
+	<%= link_to "予定を追加する", "/posts/new" %>

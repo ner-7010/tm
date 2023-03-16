@@ -1,0 +1,16 @@
+<h1>タスクを追加</h1>
+
+<%= form_for @post do |f| %>
+    <%= f.label :title,"予定" %>
+    <%= f.text_field :title %><br>
+    <%= f.label :task,"詳細" %>
+    <%= f.text_field :task %><br>
+    <%= f.label :start_time,"日時" %>
+    <%= f.datetime_select :start_time %><br>
+    <%= f.label :time_required,"所要時間" %>
+    <%= f.number_field :time_required, min: 1 %><br>
+    <%= f.label :time_taken,"経過時間" %>
+    <%= f.number_field :time_taken, min:0 %><br>
+    <%= f.select :category, [["課題", "homework"], ["仕事", "job"], ["その他", "other"]], include_blank: "どの投稿？" %>
+    <%= f.submit "予定を入れる" %>
+<% end %>

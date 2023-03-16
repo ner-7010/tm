@@ -1,0 +1,5 @@
+<% @posts.each do |t| %>
+    <% if t.category == "homework" %>
+    <p>詳細:<%= t.task %></p>
+    <% end %>
+<% end %>

@@ -1,0 +1,65 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+/*------------------------------------
+    bar graph
+------------------------------------*/
+.bar-graph-wrap {
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+}
+.bar-graph-wrap .graph {
+    height: 50px;
+    position: absolute;
+    left: 0;
+    border-radius: 0 4px 4px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 10px;
+    -webkit-animation: graphAnim 2.5s forwards;
+            animation: graphAnim 2.5s forwards;
+}
+.bar-graph-wrap .graph span {
+    font-size: 14px;
+    color: #ffffff;
+}
+@media screen and (max-width: 750px) {
+    .bar-graph-wrap .graph span {
+        font-size: 12px;
+    }
+}
+.bar-graph-wrap .graph.blue {
+    top: 15%;
+    background: #03a9f4;
+    width: 88%;
+}
+@-webkit-keyframes graphAnim {
+    0% {
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+    }
+}
+@keyframes graphAnim {
+    0% {
+        -webkit-transform: translateX(-100%);
+                transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+                transform: translateX(0);
+    }
+}

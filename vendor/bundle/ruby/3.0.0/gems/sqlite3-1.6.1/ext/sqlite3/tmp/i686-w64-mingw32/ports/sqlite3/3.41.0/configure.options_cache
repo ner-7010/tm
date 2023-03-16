@@ -1,0 +1,1 @@
+["--host=i686-w64-mingw32", "--enable-static", "--disable-shared", "--enable-shared=no", "--enable-static=yes", "CC=gcc", "CFLAGS=-fPIC -O2 -fvisibility=hidden", "--prefix=C:/Users/naoto/Desktop/test1/vendor/bundle/ruby/3.0.0/gems/sqlite3-1.6.1/ports/i686-w64-mingw32/sqlite3/3.41.0"]

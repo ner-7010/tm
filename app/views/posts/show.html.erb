@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+<h1>タスクが記録されました。</h1>
+
+<p>予定: <%= @post.title %></p>
+<p>詳細: <%= @post.task %></p>
+<p>期限: <%= @post.start_time.strftime("%Y-%m-%d %H:%M") %></p>
+<p>所要時間: <%= @post.time_required %></p>
+<p>経過時間: <%= @post.time_taken %></p>
+<p>残り時間: <%= @post.time_required-@post.time_taken %></p>
+<%= link_to '編集', edit_post_path(@post) %>
+<%= link_to "マイページへ", "/posts" %> 

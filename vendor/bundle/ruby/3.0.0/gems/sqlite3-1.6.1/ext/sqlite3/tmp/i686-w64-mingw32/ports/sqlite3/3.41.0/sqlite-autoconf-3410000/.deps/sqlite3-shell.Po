@@ -1,0 +1,379 @@
+sqlite3-shell.o: shell.c C:/Ruby30/msys32/mingw32/include/stdlib.h \
+ C:/Ruby30/msys32/mingw32/include/corecrt.h \
+ C:/Ruby30/msys32/mingw32/include/_mingw.h \
+ C:/Ruby30/msys32/mingw32/include/_mingw_mac.h \
+ C:/Ruby30/msys32/mingw32/include/_mingw_secapi.h \
+ C:/Ruby30/msys32/mingw32/include/vadefs.h \
+ C:/Ruby30/msys32/mingw32/include/sdks/_mingw_ddk.h \
+ C:/Ruby30/msys32/mingw32/include/corecrt_wstdlib.h \
+ C:/Ruby30/msys32/mingw32/include/limits.h \
+ C:/Ruby30/msys32/mingw32/include/crtdefs.h \
+ C:/Ruby30/msys32/mingw32/include/sec_api/stdlib_s.h \
+ C:/Ruby30/msys32/mingw32/include/malloc.h \
+ C:/Ruby30/msys32/mingw32/lib/gcc/i686-w64-mingw32/11.2.0/include/mm_malloc.h \
+ C:/Ruby30/msys32/mingw32/include/errno.h \
+ C:/Ruby30/msys32/mingw32/include/string.h \
+ C:/Ruby30/msys32/mingw32/include/sec_api/string_s.h \
+ C:/Ruby30/msys32/mingw32/include/stdio.h \
+ C:/Ruby30/msys32/mingw32/include/corecrt_stdio_config.h \
+ C:/Ruby30/msys32/mingw32/include/_mingw_off_t.h \
+ C:/Ruby30/msys32/mingw32/include/swprintf.inl \
+ C:/Ruby30/msys32/mingw32/include/sec_api/stdio_s.h \
+ C:/Ruby30/msys32/mingw32/include/assert.h sqlite3.h \
+ C:/Ruby30/msys32/mingw32/lib/gcc/i686-w64-mingw32/11.2.0/include/stdarg.h \
+ C:/Ruby30/msys32/mingw32/include/stdarg.h \
+ C:/Ruby30/msys32/mingw32/include/_mingw_stdarg.h \
+ C:/Ruby30/msys32/mingw32/include/ctype.h \
+ C:/Ruby30/msys32/mingw32/include/unistd.h \
+ C:/Ruby30/msys32/mingw32/include/io.h \
+ C:/Ruby30/msys32/mingw32/include/process.h \
+ C:/Ruby30/msys32/mingw32/include/corecrt_startup.h \
+ C:/Ruby30/msys32/mingw32/include/sys/types.h \
+ C:/Ruby30/msys32/mingw32/include/getopt.h \
+ C:/Ruby30/msys32/mingw32/include/pthread_unistd.h \
+ C:/Ruby30/msys32/mingw32/include/dirent.h \
+ C:/Ruby30/msys32/mingw32/include/sys/stat.h \
+ C:/Ruby30/msys32/mingw32/include/_mingw_stat64.h \
+ C:/Ruby30/msys32/mingw32/include/readline/readline.h \
+ C:/Ruby30/msys32/mingw32/include/readline/rlstdc.h \
+ C:/Ruby30/msys32/mingw32/include/readline/rltypedefs.h \
+ C:/Ruby30/msys32/mingw32/include/readline/keymaps.h \
+ C:/Ruby30/msys32/mingw32/include/readline/chardefs.h \
+ C:/Ruby30/msys32/mingw32/include/readline/tilde.h \
+ C:/Ruby30/msys32/mingw32/include/readline/history.h \
+ C:/Ruby30/msys32/mingw32/include/time.h \
+ C:/Ruby30/msys32/mingw32/include/sys/timeb.h \
+ C:/Ruby30/msys32/mingw32/include/sec_api/sys/timeb_s.h \
+ C:/Ruby30/msys32/mingw32/include/_timeval.h \
+ C:/Ruby30/msys32/mingw32/include/pthread_time.h \
+ C:/Ruby30/msys32/mingw32/include/fcntl.h \
+ C:/Ruby30/msys32/mingw32/include/windows.h \
+ C:/Ruby30/msys32/mingw32/include/sdkddkver.h \
+ C:/Ruby30/msys32/mingw32/include/excpt.h \
+ C:/Ruby30/msys32/mingw32/include/windef.h \
+ C:/Ruby30/msys32/mingw32/include/winapifamily.h \
+ C:/Ruby30/msys32/mingw32/include/minwindef.h \
+ C:/Ruby30/msys32/mingw32/include/specstrings.h \
+ C:/Ruby30/msys32/mingw32/include/sal.h \
+ C:/Ruby30/msys32/mingw32/include/concurrencysal.h \
+ C:/Ruby30/msys32/mingw32/include/driverspecs.h \
+ C:/Ruby30/msys32/mingw32/include/winnt.h \
+ C:/Ruby30/msys32/mingw32/include/_mingw_unicode.h \
+ C:/Ruby30/msys32/mingw32/include/apiset.h \
+ C:/Ruby30/msys32/mingw32/include/psdk_inc/intrin-impl.h \
+ C:/Ruby30/msys32/mingw32/include/basetsd.h \
+ C:/Ruby30/msys32/mingw32/include/guiddef.h \
+ C:/Ruby30/msys32/mingw32/include/pshpack4.h \
+ C:/Ruby30/msys32/mingw32/include/poppack.h \
+ C:/Ruby30/msys32/mingw32/include/pshpack4.h \
+ C:/Ruby30/msys32/mingw32/include/pshpack2.h \
+ C:/Ruby30/msys32/mingw32/include/poppack.h \
+ C:/Ruby30/msys32/mingw32/include/pshpack2.h \
+ C:/Ruby30/msys32/mingw32/include/pshpack8.h \
+ C:/Ruby30/msys32/mingw32/include/pshpack8.h \
+ C:/Ruby30/msys32/mingw32/include/ktmtypes.h \
+ C:/Ruby30/msys32/mingw32/include/winbase.h \
+ C:/Ruby30/msys32/mingw32/include/apisetcconv.h \
+ C:/Ruby30/msys32/mingw32/include/minwinbase.h \
+ C:/Ruby30/msys32/mingw32/include/bemapiset.h \
+ C:/Ruby30/msys32/mingw32/include/debugapi.h \
+ C:/Ruby30/msys32/mingw32/include/errhandlingapi.h \
+ C:/Ruby30/msys32/mingw32/include/fibersapi.h \
+ C:/Ruby30/msys32/mingw32/include/fileapi.h \
+ C:/Ruby30/msys32/mingw32/include/handleapi.h \
+ C:/Ruby30/msys32/mingw32/include/heapapi.h \
+ C:/Ruby30/msys32/mingw32/include/ioapiset.h \
+ C:/Ruby30/msys32/mingw32/include/interlockedapi.h \
+ C:/Ruby30/msys32/mingw32/include/jobapi.h \
+ C:/Ruby30/msys32/mingw32/include/libloaderapi.h \
+ C:/Ruby30/msys32/mingw32/include/memoryapi.h \
+ C:/Ruby30/msys32/mingw32/include/namedpipeapi.h \
+ C:/Ruby30/msys32/mingw32/include/namespaceapi.h \
+ C:/Ruby30/msys32/mingw32/include/processenv.h \
+ C:/Ruby30/msys32/mingw32/include/processthreadsapi.h \
+ C:/Ruby30/msys32/mingw32/include/processtopologyapi.h \
+ C:/Ruby30/msys32/mingw32/include/profileapi.h \
+ C:/Ruby30/msys32/mingw32/include/realtimeapiset.h \
+ C:/Ruby30/msys32/mingw32/include/securityappcontainer.h \
+ C:/Ruby30/msys32/mingw32/include/securitybaseapi.h \
+ C:/Ruby30/msys32/mingw32/include/synchapi.h \
+ C:/Ruby30/msys32/mingw32/include/sysinfoapi.h \
+ C:/Ruby30/msys32/mingw32/include/systemtopologyapi.h \
+ C:/Ruby30/msys32/mingw32/include/threadpoolapiset.h \
+ C:/Ruby30/msys32/mingw32/include/threadpoollegacyapiset.h \
+ C:/Ruby30/msys32/mingw32/include/utilapiset.h \
+ C:/Ruby30/msys32/mingw32/include/wow64apiset.h \
+ C:/Ruby30/msys32/mingw32/include/winerror.h \
+ C:/Ruby30/msys32/mingw32/include/fltwinerror.h \
+ C:/Ruby30/msys32/mingw32/include/timezoneapi.h \
+ C:/Ruby30/msys32/mingw32/include/wingdi.h \
+ C:/Ruby30/msys32/mingw32/include/pshpack1.h \
+ C:/Ruby30/msys32/mingw32/include/winuser.h \
+ C:/Ruby30/msys32/mingw32/include/tvout.h \
+ C:/Ruby30/msys32/mingw32/include/winnls.h \
+ C:/Ruby30/msys32/mingw32/include/datetimeapi.h \
+ C:/Ruby30/msys32/mingw32/include/stringapiset.h \
+ C:/Ruby30/msys32/mingw32/include/wincon.h \
+ C:/Ruby30/msys32/mingw32/include/winver.h \
+ C:/Ruby30/msys32/mingw32/include/winreg.h \
+ C:/Ruby30/msys32/mingw32/include/reason.h \
+ C:/Ruby30/msys32/mingw32/include/winnetwk.h \
+ C:/Ruby30/msys32/mingw32/include/wnnc.h \
+ C:/Ruby30/msys32/mingw32/include/virtdisk.h \
+ C:/Ruby30/msys32/mingw32/include/cderr.h \
+ C:/Ruby30/msys32/mingw32/include/dde.h \
+ C:/Ruby30/msys32/mingw32/include/ddeml.h \
+ C:/Ruby30/msys32/mingw32/include/dlgs.h \
+ C:/Ruby30/msys32/mingw32/include/lzexpand.h \
+ C:/Ruby30/msys32/mingw32/include/mmsystem.h \
+ C:/Ruby30/msys32/mingw32/include/nb30.h \
+ C:/Ruby30/msys32/mingw32/include/rpc.h \
+ C:/Ruby30/msys32/mingw32/include/rpcdce.h \
+ C:/Ruby30/msys32/mingw32/include/rpcdcep.h \
+ C:/Ruby30/msys32/mingw32/include/rpcnsi.h \
+ C:/Ruby30/msys32/mingw32/include/rpcnterr.h \
+ C:/Ruby30/msys32/mingw32/include/rpcasync.h \
+ C:/Ruby30/msys32/mingw32/include/shellapi.h \
+ C:/Ruby30/msys32/mingw32/include/winperf.h \
+ C:/Ruby30/msys32/mingw32/include/winsock.h \
+ C:/Ruby30/msys32/mingw32/include/_bsd_types.h \
+ C:/Ruby30/msys32/mingw32/include/inaddr.h \
+ C:/Ruby30/msys32/mingw32/include/psdk_inc/_socket_types.h \
+ C:/Ruby30/msys32/mingw32/include/psdk_inc/_fd_types.h \
+ C:/Ruby30/msys32/mingw32/include/psdk_inc/_ip_types.h \
+ C:/Ruby30/msys32/mingw32/include/psdk_inc/_ip_mreq1.h \
+ C:/Ruby30/msys32/mingw32/include/psdk_inc/_wsadata.h \
+ C:/Ruby30/msys32/mingw32/include/psdk_inc/_xmitfile.h \
+ C:/Ruby30/msys32/mingw32/include/psdk_inc/_wsa_errnos.h \
+ C:/Ruby30/msys32/mingw32/include/wincrypt.h \
+ C:/Ruby30/msys32/mingw32/include/bcrypt.h \
+ C:/Ruby30/msys32/mingw32/include/ncrypt.h \
+ C:/Ruby30/msys32/mingw32/include/dpapi.h \
+ C:/Ruby30/msys32/mingw32/include/winefs.h \
+ C:/Ruby30/msys32/mingw32/include/winscard.h \
+ C:/Ruby30/msys32/mingw32/include/wtypes.h \
+ C:/Ruby30/msys32/mingw32/include/rpcndr.h \
+ C:/Ruby30/msys32/mingw32/include/rpcnsip.h \
+ C:/Ruby30/msys32/mingw32/include/rpcsal.h \
+ C:/Ruby30/msys32/mingw32/include/ole2.h \
+ C:/Ruby30/msys32/mingw32/include/objbase.h \
+ C:/Ruby30/msys32/mingw32/include/combaseapi.h \
+ C:/Ruby30/msys32/mingw32/include/wtypesbase.h \
+ C:/Ruby30/msys32/mingw32/include/unknwnbase.h \
+ C:/Ruby30/msys32/mingw32/include/objidlbase.h \
+ C:/Ruby30/msys32/mingw32/include/cguid.h \
+ C:/Ruby30/msys32/mingw32/include/objidl.h \
+ C:/Ruby30/msys32/mingw32/include/unknwn.h \
+ C:/Ruby30/msys32/mingw32/include/urlmon.h \
+ C:/Ruby30/msys32/mingw32/include/oleidl.h \
+ C:/Ruby30/msys32/mingw32/include/servprov.h \
+ C:/Ruby30/msys32/mingw32/include/msxml.h \
+ C:/Ruby30/msys32/mingw32/include/oaidl.h \
+ C:/Ruby30/msys32/mingw32/include/propidl.h \
+ C:/Ruby30/msys32/mingw32/include/oleauto.h \
+ C:/Ruby30/msys32/mingw32/include/winioctl.h \
+ C:/Ruby30/msys32/mingw32/include/winsmcrd.h \
+ C:/Ruby30/msys32/mingw32/include/winspool.h \
+ C:/Ruby30/msys32/mingw32/include/prsht.h \
+ C:/Ruby30/msys32/mingw32/include/commdlg.h \
+ C:/Ruby30/msys32/mingw32/include/stralign.h \
+ C:/Ruby30/msys32/mingw32/include/sec_api/stralign_s.h \
+ C:/Ruby30/msys32/mingw32/include/winsvc.h \
+ C:/Ruby30/msys32/mingw32/include/mcx.h \
+ C:/Ruby30/msys32/mingw32/include/imm.h \
+ C:/Ruby30/msys32/mingw32/include/memory.h \
+ C:/Ruby30/msys32/mingw32/include/direct.h \
+ C:/Ruby30/msys32/mingw32/include/zlib.h \
+ C:/Ruby30/msys32/mingw32/include/zconf.h \
+ C:/Ruby30/msys32/mingw32/lib/gcc/i686-w64-mingw32/11.2.0/include/stddef.h \
+ C:/Ruby30/msys32/mingw32/include/stddef.h
+C:/Ruby30/msys32/mingw32/include/stdlib.h:
+C:/Ruby30/msys32/mingw32/include/corecrt.h:
+C:/Ruby30/msys32/mingw32/include/_mingw.h:
+C:/Ruby30/msys32/mingw32/include/_mingw_mac.h:
+C:/Ruby30/msys32/mingw32/include/_mingw_secapi.h:
+C:/Ruby30/msys32/mingw32/include/vadefs.h:
+C:/Ruby30/msys32/mingw32/include/sdks/_mingw_ddk.h:
+C:/Ruby30/msys32/mingw32/include/corecrt_wstdlib.h:
+C:/Ruby30/msys32/mingw32/include/limits.h:
+C:/Ruby30/msys32/mingw32/include/crtdefs.h:
+C:/Ruby30/msys32/mingw32/include/sec_api/stdlib_s.h:
+C:/Ruby30/msys32/mingw32/include/malloc.h:
+C:/Ruby30/msys32/mingw32/lib/gcc/i686-w64-mingw32/11.2.0/include/mm_malloc.h:
+C:/Ruby30/msys32/mingw32/include/errno.h:
+C:/Ruby30/msys32/mingw32/include/string.h:
+C:/Ruby30/msys32/mingw32/include/sec_api/string_s.h:
+C:/Ruby30/msys32/mingw32/include/stdio.h:
+C:/Ruby30/msys32/mingw32/include/corecrt_stdio_config.h:
+C:/Ruby30/msys32/mingw32/include/_mingw_off_t.h:
+C:/Ruby30/msys32/mingw32/include/swprintf.inl:
+C:/Ruby30/msys32/mingw32/include/sec_api/stdio_s.h:
+C:/Ruby30/msys32/mingw32/include/assert.h:
+sqlite3.h:
+C:/Ruby30/msys32/mingw32/lib/gcc/i686-w64-mingw32/11.2.0/include/stdarg.h:
+C:/Ruby30/msys32/mingw32/include/stdarg.h:
+C:/Ruby30/msys32/mingw32/include/_mingw_stdarg.h:
+C:/Ruby30/msys32/mingw32/include/ctype.h:
+C:/Ruby30/msys32/mingw32/include/unistd.h:
+C:/Ruby30/msys32/mingw32/include/io.h:
+C:/Ruby30/msys32/mingw32/include/process.h:
+C:/Ruby30/msys32/mingw32/include/corecrt_startup.h:
+C:/Ruby30/msys32/mingw32/include/sys/types.h:
+C:/Ruby30/msys32/mingw32/include/getopt.h:
+C:/Ruby30/msys32/mingw32/include/pthread_unistd.h:
+C:/Ruby30/msys32/mingw32/include/dirent.h:
+C:/Ruby30/msys32/mingw32/include/sys/stat.h:
+C:/Ruby30/msys32/mingw32/include/_mingw_stat64.h:
+C:/Ruby30/msys32/mingw32/include/readline/readline.h:
+C:/Ruby30/msys32/mingw32/include/readline/rlstdc.h:
+C:/Ruby30/msys32/mingw32/include/readline/rltypedefs.h:
+C:/Ruby30/msys32/mingw32/include/readline/keymaps.h:
+C:/Ruby30/msys32/mingw32/include/readline/chardefs.h:
+C:/Ruby30/msys32/mingw32/include/readline/tilde.h:
+C:/Ruby30/msys32/mingw32/include/readline/history.h:
+C:/Ruby30/msys32/mingw32/include/time.h:
+C:/Ruby30/msys32/mingw32/include/sys/timeb.h:
+C:/Ruby30/msys32/mingw32/include/sec_api/sys/timeb_s.h:
+C:/Ruby30/msys32/mingw32/include/_timeval.h:
+C:/Ruby30/msys32/mingw32/include/pthread_time.h:
+C:/Ruby30/msys32/mingw32/include/fcntl.h:
+C:/Ruby30/msys32/mingw32/include/windows.h:
+C:/Ruby30/msys32/mingw32/include/sdkddkver.h:
+C:/Ruby30/msys32/mingw32/include/excpt.h:
+C:/Ruby30/msys32/mingw32/include/windef.h:
+C:/Ruby30/msys32/mingw32/include/winapifamily.h:
+C:/Ruby30/msys32/mingw32/include/minwindef.h:
+C:/Ruby30/msys32/mingw32/include/specstrings.h:
+C:/Ruby30/msys32/mingw32/include/sal.h:
+C:/Ruby30/msys32/mingw32/include/concurrencysal.h:
+C:/Ruby30/msys32/mingw32/include/driverspecs.h:
+C:/Ruby30/msys32/mingw32/include/winnt.h:
+C:/Ruby30/msys32/mingw32/include/_mingw_unicode.h:
+C:/Ruby30/msys32/mingw32/include/apiset.h:
+C:/Ruby30/msys32/mingw32/include/psdk_inc/intrin-impl.h:
+C:/Ruby30/msys32/mingw32/include/basetsd.h:
+C:/Ruby30/msys32/mingw32/include/guiddef.h:
+C:/Ruby30/msys32/mingw32/include/pshpack4.h:
+C:/Ruby30/msys32/mingw32/include/poppack.h:
+C:/Ruby30/msys32/mingw32/include/pshpack4.h:
+C:/Ruby30/msys32/mingw32/include/pshpack2.h:
+C:/Ruby30/msys32/mingw32/include/poppack.h:
+C:/Ruby30/msys32/mingw32/include/pshpack2.h:
+C:/Ruby30/msys32/mingw32/include/pshpack8.h:
+C:/Ruby30/msys32/mingw32/include/pshpack8.h:
+C:/Ruby30/msys32/mingw32/include/ktmtypes.h:
+C:/Ruby30/msys32/mingw32/include/winbase.h:
+C:/Ruby30/msys32/mingw32/include/apisetcconv.h:
+C:/Ruby30/msys32/mingw32/include/minwinbase.h:
+C:/Ruby30/msys32/mingw32/include/bemapiset.h:
+C:/Ruby30/msys32/mingw32/include/debugapi.h:
+C:/Ruby30/msys32/mingw32/include/errhandlingapi.h:
+C:/Ruby30/msys32/mingw32/include/fibersapi.h:
+C:/Ruby30/msys32/mingw32/include/fileapi.h:
+C:/Ruby30/msys32/mingw32/include/handleapi.h:
+C:/Ruby30/msys32/mingw32/include/heapapi.h:
+C:/Ruby30/msys32/mingw32/include/ioapiset.h:
+C:/Ruby30/msys32/mingw32/include/interlockedapi.h:
+C:/Ruby30/msys32/mingw32/include/jobapi.h:
+C:/Ruby30/msys32/mingw32/include/libloaderapi.h:
+C:/Ruby30/msys32/mingw32/include/memoryapi.h:
+C:/Ruby30/msys32/mingw32/include/namedpipeapi.h:
+C:/Ruby30/msys32/mingw32/include/namespaceapi.h:
+C:/Ruby30/msys32/mingw32/include/processenv.h:
+C:/Ruby30/msys32/mingw32/include/processthreadsapi.h:
+C:/Ruby30/msys32/mingw32/include/processtopologyapi.h:
+C:/Ruby30/msys32/mingw32/include/profileapi.h:
+C:/Ruby30/msys32/mingw32/include/realtimeapiset.h:
+C:/Ruby30/msys32/mingw32/include/securityappcontainer.h:
+C:/Ruby30/msys32/mingw32/include/securitybaseapi.h:
+C:/Ruby30/msys32/mingw32/include/synchapi.h:
+C:/Ruby30/msys32/mingw32/include/sysinfoapi.h:
+C:/Ruby30/msys32/mingw32/include/systemtopologyapi.h:
+C:/Ruby30/msys32/mingw32/include/threadpoolapiset.h:
+C:/Ruby30/msys32/mingw32/include/threadpoollegacyapiset.h:
+C:/Ruby30/msys32/mingw32/include/utilapiset.h:
+C:/Ruby30/msys32/mingw32/include/wow64apiset.h:
+C:/Ruby30/msys32/mingw32/include/winerror.h:
+C:/Ruby30/msys32/mingw32/include/fltwinerror.h:
+C:/Ruby30/msys32/mingw32/include/timezoneapi.h:
+C:/Ruby30/msys32/mingw32/include/wingdi.h:
+C:/Ruby30/msys32/mingw32/include/pshpack1.h:
+C:/Ruby30/msys32/mingw32/include/winuser.h:
+C:/Ruby30/msys32/mingw32/include/tvout.h:
+C:/Ruby30/msys32/mingw32/include/winnls.h:
+C:/Ruby30/msys32/mingw32/include/datetimeapi.h:
+C:/Ruby30/msys32/mingw32/include/stringapiset.h:
+C:/Ruby30/msys32/mingw32/include/wincon.h:
+C:/Ruby30/msys32/mingw32/include/winver.h:
+C:/Ruby30/msys32/mingw32/include/winreg.h:
+C:/Ruby30/msys32/mingw32/include/reason.h:
+C:/Ruby30/msys32/mingw32/include/winnetwk.h:
+C:/Ruby30/msys32/mingw32/include/wnnc.h:
+C:/Ruby30/msys32/mingw32/include/virtdisk.h:
+C:/Ruby30/msys32/mingw32/include/cderr.h:
+C:/Ruby30/msys32/mingw32/include/dde.h:
+C:/Ruby30/msys32/mingw32/include/ddeml.h:
+C:/Ruby30/msys32/mingw32/include/dlgs.h:
+C:/Ruby30/msys32/mingw32/include/lzexpand.h:
+C:/Ruby30/msys32/mingw32/include/mmsystem.h:
+C:/Ruby30/msys32/mingw32/include/nb30.h:
+C:/Ruby30/msys32/mingw32/include/rpc.h:
+C:/Ruby30/msys32/mingw32/include/rpcdce.h:
+C:/Ruby30/msys32/mingw32/include/rpcdcep.h:
+C:/Ruby30/msys32/mingw32/include/rpcnsi.h:
+C:/Ruby30/msys32/mingw32/include/rpcnterr.h:
+C:/Ruby30/msys32/mingw32/include/rpcasync.h:
+C:/Ruby30/msys32/mingw32/include/shellapi.h:
+C:/Ruby30/msys32/mingw32/include/winperf.h:
+C:/Ruby30/msys32/mingw32/include/winsock.h:
+C:/Ruby30/msys32/mingw32/include/_bsd_types.h:
+C:/Ruby30/msys32/mingw32/include/inaddr.h:
+C:/Ruby30/msys32/mingw32/include/psdk_inc/_socket_types.h:
+C:/Ruby30/msys32/mingw32/include/psdk_inc/_fd_types.h:
+C:/Ruby30/msys32/mingw32/include/psdk_inc/_ip_types.h:
+C:/Ruby30/msys32/mingw32/include/psdk_inc/_ip_mreq1.h:
+C:/Ruby30/msys32/mingw32/include/psdk_inc/_wsadata.h:
+C:/Ruby30/msys32/mingw32/include/psdk_inc/_xmitfile.h:
+C:/Ruby30/msys32/mingw32/include/psdk_inc/_wsa_errnos.h:
+C:/Ruby30/msys32/mingw32/include/wincrypt.h:
+C:/Ruby30/msys32/mingw32/include/bcrypt.h:
+C:/Ruby30/msys32/mingw32/include/ncrypt.h:
+C:/Ruby30/msys32/mingw32/include/dpapi.h:
+C:/Ruby30/msys32/mingw32/include/winefs.h:
+C:/Ruby30/msys32/mingw32/include/winscard.h:
+C:/Ruby30/msys32/mingw32/include/wtypes.h:
+C:/Ruby30/msys32/mingw32/include/rpcndr.h:
+C:/Ruby30/msys32/mingw32/include/rpcnsip.h:
+C:/Ruby30/msys32/mingw32/include/rpcsal.h:
+C:/Ruby30/msys32/mingw32/include/ole2.h:
+C:/Ruby30/msys32/mingw32/include/objbase.h:
+C:/Ruby30/msys32/mingw32/include/combaseapi.h:
+C:/Ruby30/msys32/mingw32/include/wtypesbase.h:
+C:/Ruby30/msys32/mingw32/include/unknwnbase.h:
+C:/Ruby30/msys32/mingw32/include/objidlbase.h:
+C:/Ruby30/msys32/mingw32/include/cguid.h:
+C:/Ruby30/msys32/mingw32/include/objidl.h:
+C:/Ruby30/msys32/mingw32/include/unknwn.h:
+C:/Ruby30/msys32/mingw32/include/urlmon.h:
+C:/Ruby30/msys32/mingw32/include/oleidl.h:
+C:/Ruby30/msys32/mingw32/include/servprov.h:
+C:/Ruby30/msys32/mingw32/include/msxml.h:
+C:/Ruby30/msys32/mingw32/include/oaidl.h:
+C:/Ruby30/msys32/mingw32/include/propidl.h:
+C:/Ruby30/msys32/mingw32/include/oleauto.h:
+C:/Ruby30/msys32/mingw32/include/winioctl.h:
+C:/Ruby30/msys32/mingw32/include/winsmcrd.h:
+C:/Ruby30/msys32/mingw32/include/winspool.h:
+C:/Ruby30/msys32/mingw32/include/prsht.h:
+C:/Ruby30/msys32/mingw32/include/commdlg.h:
+C:/Ruby30/msys32/mingw32/include/stralign.h:
+C:/Ruby30/msys32/mingw32/include/sec_api/stralign_s.h:
+C:/Ruby30/msys32/mingw32/include/winsvc.h:
+C:/Ruby30/msys32/mingw32/include/mcx.h:
+C:/Ruby30/msys32/mingw32/include/imm.h:
+C:/Ruby30/msys32/mingw32/include/memory.h:
+C:/Ruby30/msys32/mingw32/include/direct.h:
+C:/Ruby30/msys32/mingw32/include/zlib.h:
+C:/Ruby30/msys32/mingw32/include/zconf.h:
+C:/Ruby30/msys32/mingw32/lib/gcc/i686-w64-mingw32/11.2.0/include/stddef.h:
+C:/Ruby30/msys32/mingw32/include/stddef.h:
