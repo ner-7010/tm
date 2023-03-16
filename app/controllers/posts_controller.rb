@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   def index
-    require 'holiday_japan'
+    require 'holiday_japan' 
     @posts = Post.all
   end
 
