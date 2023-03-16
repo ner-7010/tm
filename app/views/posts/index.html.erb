@@ -1,7 +1,7 @@
 <%= button_to 'ログアウト', destroy_user_session_path, method: :delete %>
 	<p id="notice"><%= notice %></p>
 
-	<%= calendar events: @posts do |date, posts| %>
+	<%= calendar(number_of_days: 1) do |date, posts| %>
 		<%= date.day %>
 		<% if HolidayJapan.check(date) %>
 		<%= HolidayJapan.name(date) %>
